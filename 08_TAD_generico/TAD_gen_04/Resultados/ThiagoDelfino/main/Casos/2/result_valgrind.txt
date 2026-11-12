@@ -1,0 +1,15 @@
+==90212== Memcheck, a memory error detector
+==90212== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==90212== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==90212== Command: Resultados/ThiagoDelfino/main/prog Resultados/ThiagoDelfino/main/Casos/2
+==90212== Parent PID: 90211
+==90212== 
+==90212== 
+==90212== HEAP SUMMARY:
+==90212==     in use at exit: 0 bytes in 0 blocks
+==90212==   total heap usage: 27 allocs, 27 frees, 9,592 bytes allocated
+==90212== 
+==90212== All heap blocks were freed -- no leaks are possible
+==90212== 
+==90212== For lists of detected and suppressed errors, rerun with: -s
+==90212== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

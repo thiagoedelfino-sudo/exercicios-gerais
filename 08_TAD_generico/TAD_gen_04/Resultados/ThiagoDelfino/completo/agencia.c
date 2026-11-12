@@ -80,10 +80,9 @@ float GetSaldoMedioAgencia (tAgencia *agencia){
  * @param agencia A agência bancária.
  */
 void ImprimeDadosAgencia(tAgencia *agencia){
-    printf("Lista de agencias:\n");
     printf("\tNome: %s\n",agencia->nomeAgencia);
     printf("\tNumero: %d\n",agencia->numAgencia);
     printf("\tNumero de contas cadastradas: %d\n",VectorSize(agencia->contas));
-    printf("\tSaldo médio: R$%.2f\n",GetSaldoMedioAgencia(agencia));
+    printf("\tSaldo médio: R$%.2f\n\n",GetSaldoMedioAgencia(agencia));
 
 }
