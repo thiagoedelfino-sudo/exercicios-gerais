@@ -1,0 +1,16 @@
+relatorio.c: In function ‘ImprimeRelatorio’:
+relatorio.c:44:35: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   44 |     printf("Media das notas: %.2f%\n",media);
+      |                                   ^~
+relatorio.c:45:50: warning: spurious trailing ‘%’ in format [-Wformat=]
+   45 |     printf("porcentagem de alunos aprovados: %.2f%",porceAlunosAprov);
+      |                                                  ^
+relatorio.c:47:29: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   47 |     printf("Masculino: %.2f%\n",porceMas);
+      |                             ^~
+relatorio.c:48:28: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   48 |     printf("Feminino: %.2f%\n",porceFem);
+      |                            ^~
+relatorio.c:49:25: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   49 |     printf("Outro: %.2f%\n",porceOutros);
+      |                         ^~
