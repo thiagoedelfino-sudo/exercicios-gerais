@@ -1,12 +1,13 @@
-#include"agencia.h"
+#include "agencia.h"
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX_NOME 100
 
 struct Agencia{
-    int numAgencia,numContas;
-    Vector *contas;
+    int numAgencia;
     char nomeAgencia[MAX_NOME];
+    Vector *contas;
+    int numContas;
     float saldoMedio;
 };
 
